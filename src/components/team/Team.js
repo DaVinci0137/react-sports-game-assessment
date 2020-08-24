@@ -1,4 +1,7 @@
-function Team(props) {
+import React from 'react'
+
+
+export default function Team(props) {
     let shotPercentageDiv
 
     if (props.stats.shots) {
